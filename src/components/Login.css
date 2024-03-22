@@ -1,0 +1,40 @@
+.login-main {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 25rem;
+    background-color: #4e88f5;
+    margin: 5rem 30rem;
+
+    & .login-container {
+        display: grid;
+
+        & label {
+            font-size: 1rem;
+            font-style: italic;
+            padding-bottom: 1rem;
+            padding-top: 1rem;
+        }
+
+        & input {
+            font-size: 1rem;
+            font-style: italic;
+            padding-bottom: 1rem;
+            border: none;
+            width: 100%;
+        }
+
+        & button {
+            align-content: center;
+            color: white;
+            font-style: italic;
+            font-size: 1.2rem;
+            height: 2rem;
+            width: 50%;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+            background-color: #002363;
+        }
+    }
+}
